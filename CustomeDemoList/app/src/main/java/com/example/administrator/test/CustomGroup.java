@@ -5,9 +5,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-
-import static android.content.ContentValues.TAG;
 
 /**
  * Created by Administrator on 2017/1/17 0017.
