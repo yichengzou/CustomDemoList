@@ -1,14 +1,11 @@
 package com.example.administrator.test;
 
-import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
-import android.os.Environment;
+
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +17,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -109,25 +105,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//
-//        if (p == null) {
-//            Person person = new Person();
-//
-//            person.setName(etName.getText().toString());
-//            person.setAge(Integer.parseInt(etAge.getText().toString()));
-//            mDbUtil.copyToRealmOrUpdate(person);
-//        } else {
-//            p.setName(etName.getText().toString());
-//            p.setAge(Integer.parseInt(etAge.getText().toString()));
-//        }
-//        adapter.notifyDataSetChanged();
-//        mDbUtil.close();
         Toast.makeText(this, "保存成功", Toast.LENGTH_SHORT).show();
     }
 
     public void modif(View view) {
-        Intent intent = new Intent(this, SencodActivity.class);
-        startActivity(intent);
+
     }
 
 
